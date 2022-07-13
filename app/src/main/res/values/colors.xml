@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="water_back"> #f2f3f4</color>
+    <color name="blue">#3490dc</color>
+    <color name="red">#e3342f</color>
+    <color name="water_text">#0d8fd1</color>
+    <color name="dark_grey">#87898B</color>
 </resources>
