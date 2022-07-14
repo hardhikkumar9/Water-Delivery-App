@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-public class Bottleactivity2 extends AppCompatActivity {
+public class Bottleactivity3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class Bottleactivity2 extends AppCompatActivity {
                 }
 
                 finally {
-                    Intent intent = new Intent(Bottleactivity2.this, WelcomeActivity.class);
+                    Intent intent = new Intent(Bottleactivity3.this, WelcomeActivity.class);
                     startActivity(intent);
                     finish();
                 }
