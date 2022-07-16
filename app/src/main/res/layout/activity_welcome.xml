@@ -49,12 +49,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="170dp"
+        android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_marginStart="28dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/button_sign_up"
-        android:backgroundTint="@color/design_default_color_background"
+        app:backgroundTint="@null"
         android:onClick="onButtonSignUpClicked"
         android:text="Sign Up"
         android:textSize="15dp"
@@ -63,7 +63,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="170dp"
+        android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="40dp"
@@ -71,7 +71,7 @@
         android:onClick="onButtonSignInClicked"
         android:text="Sign In"
         android:textSize="15dp"
-        app:backgroundTint="@color/dark_grey"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

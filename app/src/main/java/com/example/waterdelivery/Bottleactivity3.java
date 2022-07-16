@@ -22,7 +22,7 @@ public class Bottleactivity3 extends AppCompatActivity {
 
         //Textview for WATER DELIVERY APP
         TextView textView = findViewById(R.id.textwaterannimation);
-        textView.animate().translationX(1000).setDuration(1000).setStartDelay(2500);
+        textView.animate().translationX(1300).setDuration(1500).setStartDelay(2500);
 
         // for moving to the main activity
         Thread thread = new Thread() {

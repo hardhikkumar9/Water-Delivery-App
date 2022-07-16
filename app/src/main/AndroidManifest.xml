@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WaterDelivery">
-        <activity android:name=".WelcomeActivity"></activity>
+
+        <activity android:name=".ForgotPasswordActivity"></activity>
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".WelcomeActivity" />
         <activity android:name=".Bottleactivity3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>
