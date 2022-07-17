@@ -30,7 +30,7 @@
                     android:columnCount="2"
                     android:rowCount="4">
 
-<!--                    1-->
+                    <!--                    1-->
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                                 android:text="Bottle-100ml"
                                 android:textColor="@color/grey"
                                 android:textSize="18sp" />
-                            
+
                             <Button
                                 android:layout_width="wrap_content"
                                 android:layout_height="30dp"
@@ -67,13 +67,13 @@
                                 app:backgroundTint="@null"
                                 android:textSize="8dp"
                                 android:text="Buy Rs.10"
-                                android:background="@drawable/button_sign_up"/>
+                                android:background="@drawable/button_sign_up" />
 
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-<!--                    2-->
+                    <!--                    2-->
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-<!--                    3-->
+                    <!--                    3-->
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -159,7 +159,7 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-<!--                    4-->
+                    <!--                    4-->
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -202,7 +202,7 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-<!--                    5-->
+                    <!--                    5-->
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -245,7 +245,7 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-<!--                    6-->
+                    <!--                    6-->
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -288,7 +288,7 @@
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-<!--                    7-->
+                    <!--                    7-->
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -325,14 +325,14 @@
                                 android:layout_marginTop="10dp"
                                 app:backgroundTint="@null"
                                 android:textSize="8dp"
-                                android:text="Buy Rs.1000"
+                                android:text="Buy Rs.100"
                                 android:background="@drawable/button_sign_up"/>
 
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-<!--                    8-->
+                    <!--                    8-->
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -369,6 +369,49 @@
                                 app:backgroundTint="@null"
                                 android:textSize="8dp"
                                 android:text="Buy Rs.120"
+                                android:background="@drawable/button_sign_up"/>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+<!--                    9-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/aug"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:text="Bottle-25ltr"
+                                android:textColor="@color/grey"
+                                android:textSize="18sp" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="10dp"
+                                app:backgroundTint="@null"
+                                android:textSize="8dp"
+                                android:text="Buy Rs.150"
                                 android:background="@drawable/button_sign_up"/>
 
 

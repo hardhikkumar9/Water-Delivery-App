@@ -12,4 +12,10 @@
     <color name="red">#e3342f</color>
     <color name="water_text">#0d8fd1</color>
     <color name="dark_grey">#87898B</color>
+    <color name="grey">#6f6f6f</color>
+    <color name="Ivory">#FFFFF0</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="MidnightBlue">#191970</color>
+
+
 </resources>
