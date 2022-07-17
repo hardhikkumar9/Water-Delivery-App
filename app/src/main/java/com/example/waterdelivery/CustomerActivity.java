@@ -3,21 +3,20 @@ package com.example.waterdelivery;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.example.waterdelivery.databinding.ActivityDashboardBinding;
+import com.example.waterdelivery.databinding.ActivityCustomerBinding;
 
-public class DashboardActivity extends DrawerBaseActivity {
+public class CustomerActivity extends DrawerBaseActivity {
 
-    ActivityDashboardBinding activityDashboardBinding;
+    ActivityCustomerBinding activityCustomerBinding
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        activityDashboardBinding =ActivityDashboardBinding.inflate(getLayoutInflater());
-        allcateActivityTitle("Dashboard");
-        setContentView(activityDashboardBinding.getRoot());
+        setContentView(R.layout.activity_customer);
     }
 
     @Override

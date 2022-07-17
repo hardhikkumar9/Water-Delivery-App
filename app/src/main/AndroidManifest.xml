@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.WaterDelivery">
-        <activity android:name=".DrawerBaseActivity"></activity>
+        <activity android:name=".CustomerActivity"></activity>
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".DrawerBaseActivity" />
         <activity android:name=".DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +23,7 @@
         <activity android:name=".SignInActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".WelcomeActivity" />
-        <activity android:name=".Bottleactivity3"></activity>
+        <activity android:name=".Bottleactivity3" />
         <activity android:name=".MainActivity" />
     </application>
 
