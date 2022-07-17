@@ -16,12 +16,8 @@ public class DashboardActivity extends DrawerBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         activityDashboardBinding =ActivityDashboardBinding.inflate(getLayoutInflater());
-        allcateActivityTitle("Dashboard");
+        allocateActivityTitle("Dashboard");
         setContentView(activityDashboardBinding.getRoot());
     }
 
-    @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
-    }
 }

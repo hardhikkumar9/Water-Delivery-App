@@ -15,7 +15,7 @@ public class Bottleactivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_bottleactivity);
 
         //hidden navigation bar
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
 
         //hidden status bar
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);

@@ -12,18 +12,18 @@
         <activity android:name=".CustomerActivity"></activity>
         <activity android:name=".OrderActivity" />
         <activity android:name=".DrawerBaseActivity" />
-        <activity android:name=".DashboardActivity">
+        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".Bottleactivity3" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ForgotPasswordActivity" />
-        <activity android:name=".SignInActivity" />
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".Bottleactivity3" />
         <activity android:name=".MainActivity" />
     </application>
 

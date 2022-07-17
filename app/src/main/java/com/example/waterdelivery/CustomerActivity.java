@@ -11,16 +11,14 @@ import com.example.waterdelivery.databinding.ActivityCustomerBinding;
 
 public class CustomerActivity extends DrawerBaseActivity {
 
-    ActivityCustomerBinding activityCustomerBinding
+    ActivityCustomerBinding activityCustomerBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer);
+        activityCustomerBinding = ActivityCustomerBinding.inflate(getLayoutInflater());
+        setContentView(activityCustomerBinding.getRoot());
+        allocateActivityTitle("Customer");
     }
 
-    @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
-    }
 }
